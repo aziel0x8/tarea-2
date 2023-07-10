@@ -1,0 +1,10 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+nav{
+    background-color: bisque;
+}
+table,tr,th,td{
+    border: 1px solid black;
+}
