@@ -8,31 +8,61 @@
 </head>
 <body>
     <nav><h1>Registro de producto</h1></nav>
-    <section>
-        <label for="codigo">Codigo: </label>
-        <input type="number"  name="codigo">
-        <br>
-        <label for="descrip">Descripcion: </label>
-        <input type="text"  name="descrip">
-        <br>
-        <label for="codB">Codigo de barra : </label>
-        <input type="number"  name="codB">
-        <br>
-        <label for="preU">Precio Unitario : </label>
-        <input type="number"  name="preU">
-        <br>
-        <label for="Stock">Stock : </label>
-        <input type="number"  name="Stock">
-        <br>
-        <label for="Stock">Provedor : </label>
-        <input type="number"  name="Stock">
-        <br>
-        <label for="Stock">Estado : </label>
-        <input type="number"  name="Stock">
-        <br>
-        <label for="Stock">Categoria : </label>
-        <input type="number"  name="Stock">
-    </section>
+    
+   
+
+        <form id="conte" action="index.html" method="post">
+            <main>
+            <div id="unop">
+                <label for="codigo">Codigo: </label>
+                <input type="number"  name="codigo">
+            </div>
+            
+           <div>
+            <label for="descrip">Descripcion: </label>
+            <input type="text"  name="descrip">
+           </div>
+          
+            
+            <label for="codB">Codigo de barra : </label>
+            <input type="number"  name="codB">
+            <br>
+            <label for="preU">Precio Unitario : </label>
+            <input type="number"  name="preU">
+            <br>
+            <label for="Stock">Stock : </label>
+            <input type="number"  name="Stock">
+            <br>
+            <label for="Stock">Provedor : </label>
+            <input type="text"  name="Stock">
+            <br>
+            <label for="Stock" >Estado : </label>
+            <input type="checkbox" class="prub" name="Stock">
+           <br>
+            <label for="Stock">Categoria : </label>
+            <select>
+                <option>Categoria 1</option>
+                <option>Categoria 2</option>
+                <option>Categoria 3</option>
+                <option>Categoria 4</option>
+              </select>
+            
+    <div  class="botonos">
+        <input type="submit" id="btn-f" value="Guardar">
+        <!-- <a href="" id="btn-g" type="submit" value="Guardar">Guardar</a> -->
+        <a href="" id="btn-c">Cancelar</a>
+      
+      
+    </div> 
+             
+
+              <!-- <h1>holaaaaaaaa</h1> -->
+        </main>
+
+
+
+        </form>
+        
     
 </body>
 </html>
