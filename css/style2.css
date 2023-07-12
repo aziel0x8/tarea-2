@@ -90,6 +90,9 @@ a{
         
       
 }
+#btn-c:hover{
+    background-color: #ea372b;
+}
 .botonos{
     margin-top: 55px;
     padding: 20px;
@@ -110,13 +113,13 @@ a{
     cursor: pointer;
 
 }
-/* .cod{
-    position: absolute;
-    top: 14%;
-    
-   
-    
-} */
+#btn-f:hover{
+  
+    background-color:  #2fce41;
+ 
+
+}
+
 div{
     margin: 5px;
 }

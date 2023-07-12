@@ -51,11 +51,22 @@ a{
 #btn-new{
     background-color: #3FC14F;
 }
+#btn-new:hover{
+    background-color:  #2fce41;
+}
 #btn-edit{
     background-color: #1b4bd2;
 }
+#btn-edit:hover{
+    background-color: #0130ff;
+}
 #btn-delet{
     background-color: #e10e0e;
+   
+}
+#btn-delet:hover{
+    background-color:  #ea372b;
+    #ea372b
 }
 thead{
     background-color:black;
